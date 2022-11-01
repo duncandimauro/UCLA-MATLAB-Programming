@@ -8,4 +8,4 @@ Homework 7 problem #2 (Conway's "Game of Life")
   Life - a white pixel = a living cell.
 
 Final Project:
-  - Utilize a genetic algorithm to find the optimal path for a 4-link robotic arm to traverse, reaching a goal while avoiding static obstacles
+  - Utilize a genetic algorithm to find the optimal path for a 4-link robotic arm to follow, reaching a goal while avoiding static obstacles
