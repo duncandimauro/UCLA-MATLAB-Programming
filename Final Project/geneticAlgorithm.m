@@ -114,7 +114,7 @@ while ~ FLAG
     end
     %If it still doesn't converge after 100 iterations
     if Iteration > 100
-        break
+        FLAG = true;
     end
     
     Iteration = Iteration + 1;
