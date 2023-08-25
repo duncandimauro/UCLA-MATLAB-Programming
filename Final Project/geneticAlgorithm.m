@@ -112,6 +112,10 @@ while ~ FLAG
     if HighestFitness > 0.99
         FLAG = true;
     end
+    %If it still doesn't converge after 100 iterations
+    if Iteration > 100
+        break
+    end
     
     Iteration = Iteration + 1;
     
